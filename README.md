@@ -1,5 +1,7 @@
 # Phaxio 10-File API Limit Demonstration
 
+I ran into Phaxio seeming to have an undocumented limit of 10 files that it can accept as part of a multi-part POST with images to be faxed (for example, 11 images representing 11 pages). This code reproduces this finding with the plain-old `curl` utility (i.e., no client library).
+
 ## Setup
 
 Get a Phaxio account, and set the following environment variables:
